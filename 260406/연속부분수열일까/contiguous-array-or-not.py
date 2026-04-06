@@ -7,8 +7,6 @@ if B[0] in A:
         if A[i] == B[0]:
             if A[i : i+N2] == B:
                 found = True
-else :
-    print("No")
 if found == True:
     print("Yes")
 else :
