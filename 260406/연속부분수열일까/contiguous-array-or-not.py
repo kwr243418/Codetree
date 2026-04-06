@@ -1,7 +1,6 @@
 N1, N2 = map(int, input().split())
 A = list(map(int, input().split()))
 B = list(map(int, input().split()))
-idx = []
 found = False
 if B[0] in A:
     for i in range(len(A)):
