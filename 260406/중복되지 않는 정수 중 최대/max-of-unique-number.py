@@ -9,8 +9,11 @@ for i in range(n):
             if a[i] == a[j]:
                 arr[i] = 1
                 arr[j] = 1
-max = a[arr.index(0)]
-for i in range(n):
-    if max < a[i] and arr[i] == 0:
-        max = a[i]
-print(max)
+if 0 in arr:
+    max = a[arr.index(0)]
+    for i in range(n):
+        if max < a[i] and arr[i] == 0:
+            max = a[i]
+    print(max)
+else :
+    print(-1)
